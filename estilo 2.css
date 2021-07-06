@@ -1,0 +1,140 @@
+
+
+/*codigo para centrar el menu*/
+
+#header{
+    margin: auto;
+    width: 1020px;
+    font-family:arial,helvetica,sans-serif;
+    font-size: 17;
+    font-weight: 600;
+}
+/*quita las etiquetas*/
+ul,ol{
+    list-style:none;
+}
+
+.nav li a{
+    background-color:#333eb1;
+    color:#fff;
+    text-decoration: none;
+    padding:10px 45px;
+    display:block;
+    box-shadow:5px 0px 10px #333eb1;
+}
+/*coloca otro color de letra al coolocar el puntero*/
+.nav li a:hover{
+    background-color: brown;
+}
+
+.nav>li{
+    float:left;
+
+}
+/*coloca el menu para desplegar*/
+.nav li ul{
+    display: none;
+    position:absolute;
+    min-width: 140px;
+}
+/*con esto aparece el submenu*/
+.nav li:hover>ul{
+    display: block;
+}
+
+body{
+  background-color:#333eb1;
+  background-attachment:fixed;
+    background-size: 1360px 720px;
+      margin-left: 5%;
+      margin-right: 5%;
+}
+
+
+p { color:white;
+    font-famly:verdana;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+
+a{
+  font-size:20px;
+  color:black;
+  text-decoration: none;
+}
+.slider{
+      width: 95%;
+      margin: auto;
+          overflow: hidden;            }
+
+   .slider ul {
+           display: flex;
+          padding: 0;
+          width: 400%;
+           animation: cambio 20s infinite alternate linear;   }
+
+    .slider li {
+              width: 100%;
+              list-style: none;            }
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+    45% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}            }
+
+
+img{
+        width: 1000PX;
+        height: 300PX;            }
+
+textarea{
+  margin-left: 5px; }
+
+
+.redes{
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.va{
+           padding: 3px 10px;
+           border: white 5px solid;
+           border-radius: 20px;
+}
+h2{
+color: white;
+
+}
+h1{
+color: white;
+
+}
+.mision{
+  text-align: center;
+}
+.vision{
+  text-align: center;
+border-left: white 1px solid;
+}
+.cate{
+  padding: 3px 10px;
+  border: white 5px solid;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+ }
+hr{
+  color: white;
+}
+.redesabajo{
+color: white;
+margin-left: 35%;
+margin-right: 35%;
+}
